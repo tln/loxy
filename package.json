@@ -1,0 +1,21 @@
+{
+  "name": "loxy",
+  "version": "0.1.0",
+  "description": "A very simple logging proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "bin": {
+    "loxy": "./server.js"
+  },
+  "author": "tony@lownds.com",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "http-proxy": "^1.16.2",
+    "yargs": "^9.0.1"
+  }
+}
