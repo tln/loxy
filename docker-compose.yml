@@ -1,0 +1,12 @@
+version: '2'
+services:
+  loxy:
+    build: .
+    cap_add: 
+    - NET_ADMIN
+    - NET_RAW
+    ports:
+    - 8082:80
+    - 8083:8081
+    volumes:
+    - ./:/src
